@@ -6,10 +6,6 @@
 //
 import SwiftUI
 
-
-
-
-
 struct FavoritesView: View {
     @EnvironmentObject var favorites: FavoritesManager
     let allBooks: [Book]

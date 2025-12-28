@@ -42,6 +42,7 @@ var body: some View {
            
 
         
+        
         Text(book.description)
             .font(.system(size: 10))
             .foregroundStyle(.secondary)

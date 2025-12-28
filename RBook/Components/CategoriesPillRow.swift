@@ -36,6 +36,7 @@ struct CategoriesPillRow: View {
                             Image(systemName: category.icon)
                                 .font(.system(size: 14, weight: .semibold))
                             Text(category.title)
+                    
                                 .font(.system(size: 14, weight: .semibold))
                         }
                         .padding(.horizontal, 16)

@@ -31,6 +31,7 @@ final class ExploreViewModel: ObservableObject {
 
         Task {
             do {
+          
                 let books = try await service.searchBooks(query: q)
                 self.results = books
                 self.isLoading = false

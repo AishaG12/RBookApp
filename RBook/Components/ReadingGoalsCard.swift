@@ -107,6 +107,7 @@ struct ReadingGoalsCard: View {
     }
 }
 
+
 private var blueGradient: LinearGradient {
     LinearGradient(
         colors: [

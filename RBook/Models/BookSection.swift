@@ -12,3 +12,4 @@ struct BookSection: Identifiable, Hashable {
     let title: String
     let books: [Book]
 }
+

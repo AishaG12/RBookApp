@@ -60,6 +60,7 @@ struct PickedForYouCarousel: View {
                     .tag(page)
                 }
             }
+            
             .frame(height: 360)
             .tabViewStyle(.page(indexDisplayMode: .automatic))
             .onReceive(timer) { _ in

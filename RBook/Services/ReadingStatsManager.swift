@@ -32,6 +32,7 @@ final class ReadingStatsManager: ObservableObject {
         rolloverYearlyIfNeeded()
     }
 
+    
     // MARK: - Public
 
     

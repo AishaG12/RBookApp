@@ -17,6 +17,7 @@ struct StarRatingView: View {
                     .foregroundColor(.orange)
             }
 
+            
             Text(String(format: "%.1f", rating))
                 .font(.system(size: 12, weight: .semibold))
                 .foregroundStyle(.secondary)

@@ -30,6 +30,7 @@ struct BookDetailsView: View {
                             Color.gray.opacity(0.12)
                             Image(systemName: "book.closed")
                                 .font(.system(size: 46))
+          
                                 .foregroundStyle(Color("BrandBlue"))
                                
                         }

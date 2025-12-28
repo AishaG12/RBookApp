@@ -16,6 +16,7 @@ let featuredBooks: [Book] = [
         description: "كتاب يشرح كيف تتكوّن العادات ولماذا ننجح أو نفشل في تغييرها، مع أمثلة واقعية تساعد على تحسين الحياة الشخصية والعملية."
     ),
     Book(
+        
         title: "Deep Work",
         author: "Cal Newport",
         isbn: "9781455586691",

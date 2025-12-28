@@ -17,6 +17,7 @@ struct MainTabView: View {
         featuredBooks + homeSections.flatMap { $0.books }
     }
 
+    
     var body: some View {
         TabView {
 

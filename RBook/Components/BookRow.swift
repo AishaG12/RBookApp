@@ -50,6 +50,7 @@ struct BookRow: View {
                     .lineLimit(1)
             }
 
+            
             Spacer()
         }
         .padding(.vertical, 6)

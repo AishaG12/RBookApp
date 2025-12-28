@@ -17,6 +17,7 @@ import SwiftUI
 struct FeaturedBookCard: View {
     let book: Book
 
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
 

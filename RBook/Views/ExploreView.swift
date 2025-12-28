@@ -15,7 +15,7 @@ struct ExploreView: View {
     var body: some View {
         VStack(spacing: 12) {
 
-            // Search Bar
+            
             HStack {
                 TextField("Search books", text: $vm.query)
                     .keyboardType(.asciiCapable)
@@ -30,22 +30,22 @@ struct ExploreView: View {
                 }
             }
             .padding(.horizontal)
-            .padding(.top, 6) // يخليه قريب من العنوان
+            .padding(.top, 6)
 
-            // Loading
+           
             if vm.isLoading {
                 ProgressView()
                     .padding()
             }
 
-            // Error
+            
             if let error = vm.errorMessage {
                 Text(error)
                     .foregroundColor(.red)
                     .padding()
             }
 
-            // Empty State (after searching)
+            
             if !vm.isLoading,
                vm.errorMessage == nil,
                !vm.query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,

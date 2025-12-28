@@ -27,6 +27,7 @@ enum NetworkError: LocalizedError {
     }
 }
 
+
 // MARK: - Service
 final class BookService {
 

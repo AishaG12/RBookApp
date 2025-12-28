@@ -51,6 +51,7 @@ struct Book: Identifiable, Hashable {
         }
 
         
+        
         guard !isbn.isEmpty else { return nil }
         return URL(string: "https://covers.openlibrary.org/b/isbn/\(isbn)-M.jpg")
     }
