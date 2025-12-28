@@ -119,4 +119,4 @@ https://drive.google.com/file/d/1033x7j0RSRruh82rOcpG0ON2hcsqLcpj/view?usp=shari
 
 ## 👩‍💻 Developer
 
-**Aisha Al-Houdasi**
+**Aisha Hudasi**
