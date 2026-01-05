@@ -1,4 +1,4 @@
-# 📚 RBookApp – 
+# 📚 RBookApp – Graduation Project 
 
 ## Project Overview
 
@@ -13,7 +13,7 @@ The main goal of this project is to demonstrate:
 - Proper handling of UI states  
 - Clear separation of concerns  
 
-This project is designed as a small-scale project, focusing on code quality and best practices rather than complexity.
+This project is designed as a small-scale Graduation project, focusing on code quality and best practices rather than complexity.
 
 ---
 
