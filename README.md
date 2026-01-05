@@ -1,4 +1,4 @@
-# 📚 RBookApp – iOS Graduation Project
+# 📚 RBookApp – 
 
 ## Project Overview
 
